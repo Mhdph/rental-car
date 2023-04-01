@@ -2,6 +2,7 @@ import { Navbar } from '@/components/navbar'
 import React from 'react'
 import styled from 'styled-components'
 import tw from 'twin.macro'
+import { TopSection } from './TopSection'
 
 const PageContainer = styled.div`
   ${tw`
@@ -13,6 +14,7 @@ function HomePage() {
   return (
     <PageContainer>
       <Navbar />
+      <TopSection />
     </PageContainer>
   )
 }
